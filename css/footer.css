@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--color-secondary);
+  color: white;
+  padding: var(--spacing-lg) 0;
+  text-align: center;
+  margin-top: var(--spacing-xl);
+}
+
+.footer-text {
+  margin: 0;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: var(--spacing-md) 0;
+  }
+
+  .footer-text {
+    font-size: 0.9rem;
+  }
+}
